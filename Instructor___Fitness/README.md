@@ -1,0 +1,24 @@
+# INSTRUCTOR___FITNESS
+
+Instrucțiuni:
+
+1. Rulați în terminal:
+python -m venv venv
+. .\venv\Scripts\activate
+pip install -r .\requirements.txt
+
+2. Redenumiți fișierul .env.sample în .env și completați variabilele cu valorile dvs.
+
+3. Testare:
+python src/services/fitness_assistant.py
+
+4. Pentru a rula testele din test_main rulați:
+în primul terminal: uvicorn app.main:app --reload
+și în al doilea terminal: pytest
+
+5. Pentru a rula metricile din evaluate rulați:
+în primul terminal: uvicorn app.main:app --reload
+și în al doilea terminal: python -m evaluation.evaluate
+
+6. Pentru a apela interfața de Gradio rulați:
+python .\gradio_app\app.py și deschideți localhost

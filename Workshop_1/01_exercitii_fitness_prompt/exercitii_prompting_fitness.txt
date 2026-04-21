@@ -1,0 +1,108 @@
+
+SET DE EXERCIȚII – PROMPTING PENTRU FITNESS (10 exerciții)
+================================================================
+
+INSTRUCȚIUNI OBLIGATORII (pentru TOATE exercițiile):
+Fiecare prompt scris de student TREBUIE să conțină explicit:
+1. INSTRUCȚIUNI clare și specifice pentru modelul llm
+2. CONTEXT (situația utilizatorului, constrângeri)
+3. FORMAT DE IEȘIRE clar (structură, bullet points, pași etc.)
+
+Domeniu: FITNESS
+Limbaj: LIMBA ROMÂNĂ
+Nu se scrie cod, doar PROMPTURI.
+
+----------------------------------------------------------------
+1. ZERO-SHOT PROMPTING
+----------------------------------------------------------------
+Scrie un prompt zero-shot pentru generarea unui plan de antrenament de forță
+pentru un adult sănătos, respectând TOATE instrucțiunile obligatorii.
+
+Prompt:
+
+
+----------------------------------------------------------------
+2. ZERO-SHOT PROMPTING + PERSONIFICARE
+----------------------------------------------------------------
+Scrie un prompt zero-shot în care modelul este personificat ca
+„antrenor personal certificat”, respectând structura cerută
+entru un antrenament de forță.
+
+Prompt:
+
+
+----------------------------------------------------------------
+3. FEW-SHOT PROMPTING
+----------------------------------------------------------------
+Creează un prompt care include 2 exemple (întrebare + răspuns),
+apoi cere modelului să răspundă la o a treia întrebare,
+folosind context și format de ieșire explicit (contextul: fitness).
+
+Prompt:
+
+
+----------------------------------------------------------------
+4. CHAIN OF THOUGHT
+----------------------------------------------------------------
+Scrie un prompt care cere modelului să gândească pas cu pas
+pentru a construi un plan de slăbire, cu format explicit.
+
+Prompt:
+
+
+----------------------------------------------------------------
+5. CHAIN OF THOUGHT + PERSONIFICARE
+----------------------------------------------------------------
+Formulează un prompt în care modelul este personificat ca
+„specialist în fiziologia efortului” și explică raționamentul.
+
+Prompt:
+
+
+----------------------------------------------------------------
+6. TREE OF THOUGHT
+----------------------------------------------------------------
+Creează un prompt care cere explorarea a minimum 3 soluții diferite
+pentru un plan de antrenament și alegerea celei mai bune, cu justificare.
+
+Prompt:
+
+
+----------------------------------------------------------------
+7. TREE OF THOUGHT + PERSONIFICARE
+----------------------------------------------------------------
+Scrie un prompt în care modelul este personificat ca
+„consultant fitness” ce creaza un plan săptămânal și compară strategii diferite.
+
+Prompt:
+
+
+----------------------------------------------------------------
+8. PROMPT CHAINING
+----------------------------------------------------------------
+Construiește un prompt cu două etape clare:
+1) analiză antrenament HIIT
+2) generare plan structurat
+
+Prompt:
+
+
+----------------------------------------------------------------
+9. REACT (Reason + Act) + PERSONIFICARE
+----------------------------------------------------------------
+Scrie un prompt în care modelul explică raționamentul (Reason)
+și propune acțiuni concrete (Act), într-un format clar
+pentru un antrenament săptămânal.
+
+Prompt:
+
+
+----------------------------------------------------------------
+10. MULTIMODAL PROMPTING + PERSONIFICARE
+----------------------------------------------------------------
+Formulează un prompt în care modelul este personificat ca
+„antrenor într-o sală de fitness”, primește o imagine
+și recomandă exerciții pe baza ei.
+
+Prompt:
+

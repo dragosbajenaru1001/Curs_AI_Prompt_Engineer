@@ -1,0 +1,5 @@
+python-dotenv
+flask
+langchain-google-genai
+langchain-community
+bs4

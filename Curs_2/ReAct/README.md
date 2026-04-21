@@ -1,4 +1,5 @@
-Pentru a rula script-ul , rulati urmatoarele comenzi in terminalul Powershell:
+Pentru a rula script-ul de ReAct, rulati urmatoarele comenzi in terminalul Powershell:
+```powershell
 # creaza un virtual environment
 python -m venv venv
 
@@ -7,11 +8,13 @@ python -m venv venv
 
 # instaleaza requirements
 pip install -r .\requirements.txt
+```
 
 Redenumiti .env.sample in .env si cautati keys pe:
-https://groq.com/
+- https://groq.com/
+- https://serper.dev/
 
 Scriptul se ruleaza in terminalul Powershell cu:
-python .\agent_memorie.py
-
-Pentru a vedea diferenta comentati si decomentati liniile 16 si 18
+```powershell
+python .\main.py
+```
